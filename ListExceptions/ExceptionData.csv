@@ -1,0 +1,48 @@
+Number,Code,Service type,Error type,Identifier,Error category,Message key,Message content
+1,"20S0912",Wallet Backend,System error,912,API_ERROR,com.orb.framework.auth.config.loader.AuthConfigProblem.message,システムエラーが発生しました
+2,"10B0600",Auth,Business error,600,,com.orb.framework.wallet.security.AuthenticationFailure.message,予期しないエラーが発生致しました。再度操作をやり直すか、運営者にお問い合わせ下さい。
+3,"20S1000",Wallet Backend,System error,1000,API_ERROR,com.orb.framework.wallet.model.balance.Failure.message,残高の取得に失敗しました。
+4,"20B0509",Wallet Backend,Business error,509,INVALID_REQUEST_ERROR,com.orb.framework.wallet.model.auth.oauth.netbank.BankAccountDetail.NotSaved.message,住信SBIネット銀行口座の情報が保存されていないため、チャージが出来ません。もう一度、口座情報の登録をお願いします。
+5,"20S0914",Wallet Backend,System error,914,TRANSACTION_ERROR,com.orb.framework.wallet.model.transaction.CoinCoreExecutionFailure.message,リクエストを処理する時に問題が発生しました。問題を解決するために運営者にお問い合わせをお願いします。
+6,"10B0602",Auth,Business error,602,,com.orb.framework.wallet.login.DisabledAccount.message,お使いのアカウントは無効になっています。運営者にお問い合わせ下さい。運営者にお問い合わせ下さい。
+7,"20B0004",Wallet Backend,Business error,4,INVALID_REQUEST_ERROR,com.orb.framework.wallet.model.user.Exist.message,ユーザーID、またメールアドレスは既に使用されています。
+8,"20S0907",Wallet Backend,System error,907,API_ERROR,com.orb.framework.wallet.infrastructure.giftee.GifteeClient.SystemError.message,予期しないエラーが発生致しました。再度操作をやり直すか、運営者にお問い合わせ下さい。
+9,"20B0909",Wallet Backend,Business error,909,INVALID_REQUEST_ERROR,com.orb.framework.wallet.infrastructure.giftee.GifteeClient.TokenNotValid.message,「giftee_token」が正しくありません。
+10,"20B0901",Wallet Backend,Business error,901,INVALID_REQUEST_ERROR,com.orb.framework.wallet.infrastructure.giftee.GifteeClient.TokenNotFound.message,スタンプで店舗が見つけれません。
+11,"20S0908",Wallet Backend,System error,908,AUTHENTICATION_ERROR,com.orb.framework.wallet.infrastructure.giftee.GifteeClient.Unauthorized.message,予期しないエラーが発生致しました。再度操作をやり直すか、運営者にお問い合わせ下さい。
+12,"20S0902",Wallet Backend,System error,902,API_ERROR,com.orb.framework.wallet.infrastructure.giftee.GifteeClient.UnknownError.message,予期しないエラーが発生致しました。再度操作をやり直すか、運営者にお問い合わせ下さい。
+13,"20B1008",Wallet Backend,Business error,1008,INVALID_REQUEST_ERROR,com.orb.framework.wallet.model.history.exchange.InvalidDate.message,[tx_day]は無効な文字形式です。
+14,"20B0402",Wallet Backend,Business error,402,INVALID_REQUEST_ERROR,com.orb.framework.wallet.application.history.merchant.MerchantHistoryController.InvalidMerchantId.message,加盟店IDに誤りがあります。
+15,"20B0401",Wallet Backend,Business error,401,INVALID_REQUEST_ERROR,com.orb.framework.wallet.application.history.TxHistoryController.InvalidOffsetFormat.message,
+16,"20B0404",Wallet Backend,Business error,404,INVALID_REQUEST_ERROR,com.orb.framework.wallet.model.history.merchant.TimeParameter.message,年、月、又は日が無効です。
+17,"20B0202",Wallet Backend,Business error,202,INVALID_REQUEST_ERROR,com.orb.framework.wallet.application.Transaction.InsufficientFunds.message,残高が不足しています。
+18,"10B0700",Auth,Business error,700,INVALID_REQUEST_ERROR,com.orb.framework.wallet.model.history.list.MerchantListService.NoUserWithThatAuthorizationExists.message,
+19,"10B0601",Auth,Business error,601,,com.orb.framework.wallet.login.LoginFailure.message,ユーザーIDまたはパスワードに誤りがあります。
+20,"20B0506",Wallet Backend,Business error,506,API_ERROR,com.orb.framework.wallet.application.transaction.InvalidTransactionStatus.message,指定されたトランザクションはもう実行済みです
+21,"20B0207",Wallet Backend,Business error,207,INVALID_REQUEST_ERROR,com.orb.framework.wallet.model.limiter.MaxAmountExceeded.message,指定された金額は上限を超えています。
+22,"20B0208",Wallet Backend,Business error,208,INVALID_REQUEST_ERROR,com.orb.framework.wallet.model.limiter.MaxBalanceExceeded.message,残高の上限を超えています。
+23,"20B0290",Wallet Backend,Business error,290,INVALID_REQUEST_ERROR,com.orb.framework.wallet.model.limiter.MaxTimeExceeded.message,このトランザクションの有効期限が切れています。
+24,"20B1009",Wallet Backend,Business error,1009,INVALID_REQUEST_ERROR,com.orb.framework.wallet.model.merchant.NotFound.message,指定された[merchant_id]は登録されていません。
+25,"20B1015",Wallet Backend,Business error,1015,INVALID_REQUEST_ERROR,com.orb.framework.wallet.model.shop.NotFound.message,指定された[merchant_id]は登録されていません。
+26,"20B0210",Wallet Backend,Business error,210,INVALID_REQUEST_ERROR,com.orb.framework.wallet.infrastructure.netbank.TransactionFailed.message,銀行口座よりオペレーションが正常に行えませんでした。
+27,"20S1000",Wallet Backend,System error,1000,AUTHENTICATION_ERROR,com.orb.framework.wallet.model.auth.oauth.NoAccessToken.message,サービスの有効期限が切れました。再度ログイン又は新規登録を行ってください。
+28,"20B0308",Wallet Backend,Business error,308,INVALID_REQUEST_ERROR,com.orb.framework.wallet.model.proxy.UnauthorizedProxy.message,現在のユーザーでは、リクエストを実行する権限がありません。
+29,"20V0466",Wallet Backend,Validation error,466,INVALID_REQUEST_ERROR,com.orb.framework.wallet.util.VCClient.getCoinRate.RateDoesNotExist.message,検索されたRateは存在しません。currency_idとcoin_idを確認してください。
+30,"20B0291",Wallet Backend,Business error,291,INVALID_REQUEST_ERROR,com.orb.framework.wallet.model.report.SettlementReportNotFoundException.message,指定されたsettlementが見つかりませんでした。
+31,"20B0199",Wallet Backend,Business error,199,INVALID_REQUEST_ERROR,com.orb.framework.wallet.transaction.BaseTransactionStrategy.InvalidParticipant.message,指定したユーザーは存在しません。
+32,"50S0000",,System error,0,API_ERROR,com.orb.framework.wallet.model.charge.CreatePayment.CoineyAPIError.message,コイニーAPIによる支払用URLが生成できませんでした。運営者にお問い合わせください。
+33,"50S0001",,System error,1,API_ERROR,com.orb.framework.wallet.model.charge.GetPayment.CoineyAPIError.message,コイニーAPIによる支払情報習得はできませんでした。運営者にお問い合わせください。
+34,"20B0501",Wallet Backend,Business error,501,INVALID_REQUEST_ERROR,com.orb.framework.wallet.application.charge.InvalidPaymentStatus.message,Cannot execute charge: payment is not completed.
+35,"20S0915",Wallet Backend,System error,915,API_ERROR,com.orb.framework.wallet.config.transaction.TransactionStrategyNotFound.message,システムエラーが発生しました
+36,"20B0505",Wallet Backend,Business error,505,INVALID_REQUEST_ERROR,com.orb.framework.wallet.application.transaction.TransactionNotFound.message,指定されたIDは見つかりませんでした。
+37,"20B0006",Wallet Backend,Business error,6,INVALID_REQUEST_ERROR,com.orb.framework.wallet.model.user.temporaryuser.Unknown.message,予期しないエラーが発生致しました。再度新規登録の操作をやり直すか、運営者にお問い合わせ下さい。
+38,"20B0005",Wallet Backend,Business error,5,INVALID_REQUEST_ERROR,com.orb.framework.wallet.verification.code.Unknown.message,認証に失敗しました。認証番号を再度入力してください。
+39,"20B0305",Wallet Backend,Business error,305,INVALID_REQUEST_ERROR,com.orb.framework.wallet.model.user.cashpoint.CashpointLoginFailure.message,[cashpoint ID]または[cashpoint secret]に誤りがあります。
+40,"20B0307",Wallet Backend,Business error,307,INVALID_REQUEST_ERROR,com.orb.framework.wallet.model.user.cashpoint.OnetimeTokenNotFound.message,[onetime token]に誤りがあります。
+41,"20S1002",Wallet Backend,System error,1002,API_ERROR,com.orb.framework.wallet.model.user.CreateOrbAccount.Failure.message,アカウントの作成に失敗しました。
+42,"10S0701",Auth,System error,701,TRANSACTION_ERROR,com.orb.framework.wallet.model.history.list.MerchantListService.UserNotFound.message,予期しないエラーが発生致しました。再度操作をやり直すか、運営者にお問い合わせ下さい。
+43,"20B0100",Wallet Backend,Business error,100,INVALID_REQUEST_ERROR,com.orb.framework.wallet.UnexpectedException.message,予期しないエラーが発生致しました。再度操作をやり直すか、運営者にお問い合わせ下さい。
+44,"20B0003",Wallet Backend,Business error,3,INVALID_REQUEST_ERROR,com.orb.framework.wallet.verification.code.NotFound.message,認証に失敗しました。認証番号を再度入力してください。
+45,"40S0200",VC,System error,200,API_ERROR,com.orb.framework.wallet.VirtualCurrency.Error.message,システムエラーが発生しました
+46,"40V0010",VC,Validation error,10,AUTHENTICATION_ERROR,com.orb.framework.wallet.model.rate.RateService.GetRate.UnsupportedRate.message,レートが存在しません。
+47,"20V0010",Wallet Backend,Validation error,10,AUTHENTICATION_ERROR,com.orb.framework.wallet.model.user.UserService.ChangePassword.OldPassword.Mismatch.message,現在のパスワードが一致しません。
